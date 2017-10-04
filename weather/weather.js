@@ -30,23 +30,4 @@ $(document).ready(function() {
   });
   
 
-    //   var url = "http://api.wunderground.com/api/6332d877d6cddbf5/conditions/q/CA/San_Francisco.json";
-    //     // var key = "6332d877d6cddbf5"; // don't forget to hide it
-    //     // var url = "http://api.wunderground.com/api/" + key + "/conditions/q/" + lat + "," + lon + ".json";
-    //   $.ajax({
-    //     url: url,
-    //     dataType: "jsonp",
-    //     success: function(response){
-    //       $("#cityName").html(response.current_observation.display_location.full);
-    //       $("#temp").html(response.current_observation.temperature_string);
-    //       $("#weather-description").html(response.current_observation.weather);
-    //     }
-    //   });
-    // }
-    // };
-//Different way of writing the success function
-    //   success: function(parsed_json){
-    //     var location = parsed_json['location']['city'];
-    //     var temp_f = parsed_json['current_observation']['temp_f'];
-    //     alert("Current temperature in " + location + " is: " + temp_f);
-    // });
+
